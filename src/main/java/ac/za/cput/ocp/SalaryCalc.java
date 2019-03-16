@@ -8,4 +8,9 @@ public class SalaryCalc {
     {
         return hours*12;
     }
+
+    public int calcSalarySenior(int hours)
+    {
+        return hours*18;
+    }
 }
